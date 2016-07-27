@@ -4,12 +4,15 @@
   "description": "It's easy to handle logs when your coffee-script classes wear Flannel",
   "main": "lib/flannel.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha test/*.spec.coffee",
-    "pretest": "./node_modules/.bin/coffee --bare --output ./lib --compile ./src/*.coffee"
+    "test": "npm run test:modules && npm run test:report",
+    "test:modules": "mocha --recursive --compilers coffee:coffee-script/register --require coffee-coverage/register-istanbul test/",
+    "test:report": "istanbul report",
+    "test:coverage": "istanbul report text-summary lcov",
+    "build": "coffee --bare --map -o ./ -c src/*"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/doublerebel/flannel.git"
+    "url": "git://github.com/nextorigin/flannel.git"
   },
   "keywords": [
     "log",
@@ -35,8 +38,10 @@
   },
   "devDependencies": {
     "chai": "^3.5.0",
-    "coffee-errors": "^0.8.5",
+    "coffee-coverage": "^1.0.1",
     "coffee-script": "~1.10.0",
+    "coveralls": "^2.11.11",
+    "istanbul": "^0.4.4",
     "le_node": "^1.2.0",
     "mocha": "^2.4.5",
     "sinon": "^1.9.1",

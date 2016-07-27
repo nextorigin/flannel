@@ -1,5 +1,3 @@
-require "coffee-errors"
-
 chai      = require "chai"
 Winston   = require "winston"
 sinon     = require "sinon"
