@@ -1,10 +1,18 @@
 # flannel
 
+[![Build Status][ci-master]][travis-ci]
+[![Coverage Status][coverage-master]][coveralls]
+[![Dependency Status][dependency]][david]
+[![devDependency Status][dev-dependency]][david]
+[![Downloads][downloads]][npm]
+
 [Winston][1] helper mixins for coffee-script classes
 
 *"It's easy to handle logs when your coffee-script classes wear Flannel"*
 
 [![images of winston flannel](winston-flannel.png)](https://www.google.com/search?q=winston+flannel&safe=off&tbm=isch)
+
+[![NPM][npm-stats]][npm]
 
 * [Installation](#installation)
 * [Options](#options)
@@ -140,3 +148,16 @@ MIT Licensed.  (C) 2016 doublerebel
 
 [1]: https://github.com/winstonjs/winston
 [2]: https://github.com/expressjs/morgan
+
+
+  [ci-master]: https://img.shields.io/travis/nextorigin/flannel/master.svg?style=flat-square
+  [travis-ci]: https://travis-ci.org/nextorigin/flannel
+  [coverage-master]: https://img.shields.io/coveralls/nextorigin/flannel/master.svg?style=flat-square
+  [coveralls]: https://coveralls.io/r/nextorigin/flannel
+  [dependency]: https://img.shields.io/david/nextorigin/flannel.svg?style=flat-square
+  [david]: https://david-dm.org/nextorigin/flannel
+  [dev-dependency]: https://img.shields.io/david/dev/nextorigin/flannel.svg?style=flat-square
+  [david-dev]: https://david-dm.org/nextorigin/flannel#info=devDependencies
+  [downloads]: https://img.shields.io/npm/dm/flannel.svg?style=flat-square
+  [npm-stats]: https://nodei.co/npm/flannel.png?downloads=true&downloadRank=true&stars=true
+  [npm]: https://www.npmjs.org/package/flannel
