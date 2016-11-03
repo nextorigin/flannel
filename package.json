@@ -43,7 +43,7 @@
     "coveralls": "^2.11.11",
     "istanbul": "^0.4.4",
     "le_node": "^1.2.0",
-    "mocha": "^2.4.5",
+    "mocha": "^3.1.0",
     "sinon": "^1.9.1",
     "sinon-chai": "^2.5.0",
     "winston-couchdb": "^0.6.3",
