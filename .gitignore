@@ -1,3 +1,4 @@
 node_modules/
 flannel.sublime-project
 flannel.sublime-workspace
+coverage/
