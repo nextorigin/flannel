@@ -1,6 +1,6 @@
 {
   "name": "flannel",
-  "version": "0.9.5",
+  "version": "0.10.0",
   "description": "It's easy to handle logs when your coffee-script classes wear Flannel",
   "main": "lib/flannel.js",
   "scripts": {
