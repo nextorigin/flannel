@@ -22,6 +22,7 @@ class Flannel
 
   @_dependencyMap:
     "Couchdb":    "winston-couchdb"
+    "LogDNA":     "logdna"
     "Logentries": "le_node"
     "Loggly":     "winston-loggly"
     "Logzio":     "winston-logzio"
